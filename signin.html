@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn</title>
+    <script src="https://kit.fontawesome.com/990a6cc3d0.js" crossorigin="anonymous"></script>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-image: url(bg.Attach1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .signin-container {
+        background-color: whitesmoke;
+        padding: 62px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 400px;
+    }
+    
+    .signin-container h2 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .signin-container label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    .signin-container input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    .signin-container button {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    .signin-container button:hover {
+        background-color: #45a049;
+    }
+    .signin-container h4{
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .signin-container a{
+    display: inline-block;
+    width: 100%;
+    margin: 20px -20px;
+    min-width: 250px;
+    color: #fff;
+    font-size: 14px;
+    padding: 15px 30px;
+    text-decoration: none;
+    background: #6b00d5;
+    }
+    .signin-container a i{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    #g-link{
+        background: #ea4335;
+    }
+    </style>
+</head>
+<body>
+    <div class="signin-container">
+        <h2>Sign In</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required class="input-box">
+            <input type="email" placeholder="Email address" required class="input-box">
+            <input type="password" placeholder="Create Password" required class="input-box">
+            <button type="submit">SIGN UP<span>&#x27f6;</span></button>
+        </form>
+        <h4>or Login with</h4>
+        <a href="https://google.com" id="g-link"><i class="fa-brands fa-google"></i> &nbsp; Connect with Google</a>
+    </div>
+</body>
+</html>
